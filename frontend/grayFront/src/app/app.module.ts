@@ -37,7 +37,8 @@ import { NavBarModule } from './nav-bar/nav-bar.module';
     NavBarModule,
     CommentModule,
     LogInModule,
-    StoreModule.forRoot({userReducer}, {}),
+    StoreModule.forRoot(userReducer, {}),
+    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: isDevMode() }),
     EffectsModule.forRoot([]),
     RouterModule.forRoot([
       { path: 'sign-up', component: SignUpComponent },
