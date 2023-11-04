@@ -37,6 +37,7 @@ import { NavBarModule } from './nav-bar/nav-bar.module';
     NavBarModule,
     CommentModule,
     LogInModule,
+    StoreDevtoolsModule.instrument({maxAge: 25, logOnly: isDevMode()}),
     StoreModule.forRoot({userReducer}, {}),
     EffectsModule.forRoot([]),
     RouterModule.forRoot([
