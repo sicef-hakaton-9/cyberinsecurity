@@ -2,7 +2,7 @@
   <form
     class="bg-ligthGrey h-auto shadow-xl rounded px-8 pt-6 pb-8 mb-4 flex flex-col gap-4 justify-center items-center fixed opacity-80"
     #signUpForm
-    >
+  >
     <input
       name="email"
       class="input-light"
@@ -35,7 +35,12 @@
       id="password"
       [(ngModel)]="newUser.password"
     />
-    <p class="text-left text-xs text-darkGrey">errorInvalidPassword</p>
+    <p
+      class="text-left text-xs text-darkGrey"
+      *ngIf="passwordValidationMessage"
+    >
+      {{ passwordValidationMessage }}
+    </p>
     <input
       name="confirmPassword"
       class="input-light"
@@ -43,8 +48,14 @@
       type="password"
       id="confirmPassword"
     />
-    <button class="btn-dark self-center mb-7" (click)="onSubmit()">Sign in</button>
-    <p class="text-red-800">errorAkoBudeNes</p>
+    <button
+      class="btn-dark self-center mb-7"
+      (click)="onSubmit()"
+      routerLink="map"
+    >
+      Sign in
+    </button>
+    <p class="text-red-800" *ngIf="errorMessage">{{ errorMessage }}</p>
     <a
       class="cursor-pointer underlined-label justify-self-end mt-3"
       routerLink="/log-in"

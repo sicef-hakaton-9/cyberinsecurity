@@ -16,10 +16,15 @@
       type="password"
       [(ngModel)]="user.password"
     />
-    <button class="btn-dark self-center hover:bg-transparent duration-700" (click)="onSubmit()">
+    <button
+      class="btn-dark self-center hover:bg-transparent duration-700"
+      (click)="onSubmit()"
+    >
       Login
     </button>
-    <p class="text-red-800 text-sm transition-opacity">sta god</p>
+    <p class="text-red-800 text-sm transition-opacity" *ngIf="errorMessage">
+      {{ errorMessage }}
+    </p>
     <a
       class="cursor-pointer underlined-label pt-5 hover:text-ligthBlack"
       routerLink="/sign-up"
