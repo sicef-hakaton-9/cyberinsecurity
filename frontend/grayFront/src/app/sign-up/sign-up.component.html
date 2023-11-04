@@ -1,0 +1,49 @@
+<div class="h-full flex items-center justify-center bg-black">
+  <form
+    class="bg-ligthGrey h-auto shadow-xl rounded px-8 pt-6 pb-8 mb-4 flex flex-col gap-4 justify-center items-center fixed opacity-80"
+  >
+    <input
+      name="email"
+      class="input-light"
+      placeholder="Email"
+      type="text"
+      id="email"
+    />
+    <input
+      name="username"
+      class="input-light"
+      placeholder="Username"
+      type="text"
+      id="username"
+    />
+    <input
+      name="description"
+      class="input-light"
+      placeholder="Something about yourself"
+      type="text"
+      id="description"
+    />
+    <input
+      name="password"
+      class="input-light"
+      placeholder="Password"
+      type="password"
+      id="password"
+    />
+    <p class="text-left text-xs text-darkGrey">errorInvalidPassword</p>
+    <input
+      name="confirmPassword"
+      class="input-light"
+      placeholder="Confirm Password"
+      type="password"
+      id="confirmPassword"
+    />
+    <button class="btn-dark self-center mb-7">Sign in</button>
+    <p class="text-red-800">errorAkoBudeNes</p>
+    <a
+      class="cursor-pointer underlined-label justify-self-end mt-3"
+      routerLink="/log-in"
+      >Already have an account? Log in here</a
+    >
+  </form>
+</div>

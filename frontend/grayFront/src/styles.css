@@ -1,1 +1,109 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn-ligthBlack {
+      @apply inline-block text-sm px-4 py-2 leading-none border  rounded text-white border-white duration-300 hover:border-transparent hover:text-darkGrey  mt-4 lg:mt-0;
+    }
+    .btn-dark {
+      @apply bg-black text-white font-bold py-2 px-4 rounded transition-colors duration-500 ease-in-out  hover:text-darkGrey;
+    }
+    .btn-white {
+      @apply bg-white text-black font-bold py-2 px-4 rounded transition-colors duration-500 ease-in-out  hover:text-midGrey;
+    }
+    .input-light {
+      @apply bg-white border border-darkGrey text-black text-sm rounded-sm focus:ring-black focus:border-ligthGrey block w-44 p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-ligthGrey dark:focus:border-ligthGrey focus:w-52 self-center;
+    }
+    .input-dark {
+      @apply bg-black border border-b-darkGrey border-x-0 border-t-0 text-ligthGrey text-sm rounded-sm focus:ring-black focus:border-darkGrey block w-32 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-ligthGrey dark:focus:border-ligthGrey focus:w-40  self-end mr-6;
+    }
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    overflow: auto;
+  }
+  app-root {
+    height: 100%;
+    display: block;
+    overflow: auto;
+  }
+  
+  .underlined-label {
+    color: black;
+    background: linear-gradient(to right, #e4e4e7, #e4e4e7),
+      linear-gradient(to right, #9ca3af, #6b7280, #1f2937);
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+  
+  .underlined-label:hover,
+  .underlined-label:focus {
+    background-size: 0 0.1em, 100% 0.1em;
+  }
+  
+  .btn-animated {
+    text-transform: uppercase;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    position: relative;
+    text-align: center;
+    box-shadow: #9ca3af 0.1rem 0.1rem;
+    font-size: 0.85rem;
+    color: #27272a;
+    z-index: 1;
+    font-weight: bold;
+    border: #6b7280 solid 0.1rem;
+    border-radius: 0.5rem;
+    transition: color 0.1s ease;
+  }
+  .btn-animated:hover {
+    color: black;
+    box-shadow: #9ca3af 0.1rem 0.1rem 0.1rem 0.1rem;
+  }
+  .btn-animated::before {
+    border-radius: 0.5rem;
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    inset: 0 0 0 0;
+    background: linear-gradient(to right, #e4e4e7, #e4e4e7),
+      linear-gradient(to right, #9ca3af, #6b7280, #1f2937);
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.9s ease;
+  }
+  .smooth-transition {
+    transition: background-color 0.7s ease-in-out;
+  }
+  .btn-animated:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  @media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+  }
