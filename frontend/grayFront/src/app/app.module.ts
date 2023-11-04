@@ -6,14 +6,15 @@ import { AppComponent } from './app.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { RouterModule } from '@angular/router';
-import { MapComponent } from './map/map.component';
-import { MapModule } from './map/map.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignUpComponent,
     LogInComponent,
+    NavBarComponent,
+    CommentComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -21,10 +22,15 @@ import { MapModule } from './map/map.module';
     RouterModule.forRoot([
       { path: 'sign-up', component: SignUpComponent },
       { path: 'log-in', component: LogInComponent },
-      { path: 'map', component: MapComponent}
+      { path: 'map', component: MapComponent},
+      { path: '', redirectTo: '/log-in', pathMatch: 'full'},
+      { path:'nav-bar', component: NavBarComponent},
+      { path:'comment', component: CommentComponent},
+      { path:'home', component: HomeComponent}
     ])
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
