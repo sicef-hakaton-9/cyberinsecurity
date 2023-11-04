@@ -1,0 +1,83 @@
+
+.main-div {
+    display: grid;
+    place-content: center;
+    margin-top: 10rem;
+    border-radius: 3rem;
+  }
+h1::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    inset: 0 0 0 0;
+    background: 
+    linear-gradient(to right, #e4e4e7, #09090b);
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease;
+  }
+  
+  h1:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  h1{
+    position: relative;
+    font-size: 5rem;
+    color: white;
+    z-index: 1;
+    transition: color 0.5s ease; 
+  }
+  
+  h1:hover {
+    color: #09090b; 
+  }
+    @media (orientation: landscape) {
+      body {
+        grid-auto-flow: column;
+      }
+    }
+  h5 {
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    z-index: 1;
+    transition: color 0.3s ease; 
+  }
+  h5:hover {
+    color: #09090b; 
+  }
+  h5::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    inset: 0 0 0 0;
+    background: 
+    linear-gradient(to right, #09090b, #e4e4e7);
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.9s ease;
+  }
+  
+  h5:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+    @media (orientation: landscape) {
+      body {
+        grid-auto-flow: column;
+      }
+    }
