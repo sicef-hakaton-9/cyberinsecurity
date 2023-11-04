@@ -11,6 +11,7 @@ export class LoginService {
   constructor(private http: HttpClient) { }
 
   login(loginDTO: LoginDTO) : Observable<Jwt> {
+    console.log("login post");
     return this.http.post<Jwt>('http://localhost:3000/auth/login', loginDTO);
   }
 

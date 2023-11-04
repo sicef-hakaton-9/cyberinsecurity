@@ -7,7 +7,6 @@ import { Features } from 'src/Features';
 import { userReducer } from '../store/user/user.reducer';
 import { EffectsModule } from '@ngrx/effects';
 import { UserEffects } from '../store/user/user.effects';
-import { Router } from '@material-ui/icons';
 import { RouterLink, RouterModule } from '@angular/router';
 
 @NgModule({
