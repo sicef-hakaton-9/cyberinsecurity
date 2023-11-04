@@ -1,13 +1,15 @@
 <div class="h-full flex items-center justify-center bg-black">
   <form
     class="bg-ligthGrey h-auto shadow-xl rounded px-8 pt-6 pb-8 mb-4 flex flex-col gap-4 justify-center items-center fixed opacity-80"
-  >
+    #signUpForm
+    >
     <input
       name="email"
       class="input-light"
       placeholder="Email"
       type="text"
       id="email"
+      [(ngModel)]="newUser.email"
     />
     <input
       name="username"
@@ -15,6 +17,7 @@
       placeholder="Username"
       type="text"
       id="username"
+      [(ngModel)]="newUser.username"
     />
     <input
       name="name"
@@ -22,6 +25,7 @@
       placeholder="Full name"
       type="text"
       id="description"
+      [(ngModel)]="newUser.name"
     />
     <input
       name="password"
@@ -29,6 +33,7 @@
       placeholder="Password"
       type="password"
       id="password"
+      [(ngModel)]="newUser.password"
     />
     <p class="text-left text-xs text-darkGrey">errorInvalidPassword</p>
     <input
@@ -38,7 +43,7 @@
       type="password"
       id="confirmPassword"
     />
-    <button class="btn-dark self-center mb-7">Sign in</button>
+    <button class="btn-dark self-center mb-7" (click)="onSubmit()">Sign in</button>
     <p class="text-red-800">errorAkoBudeNes</p>
     <a
       class="cursor-pointer underlined-label justify-self-end mt-3"

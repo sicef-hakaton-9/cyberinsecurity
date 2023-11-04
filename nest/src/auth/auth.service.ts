@@ -15,7 +15,9 @@ export class AuthService {
     }
 
     async validateUser(username: string, pass: string): Promise<any> {
+        console.log(username, pass);
         const user = await this.userService.findUserByUsername(username);
+        console.log(user);
         if (user && argon.verify(user.passwordHash, pass)) {
           const { passwordHash, ...result } = user;
           return result;

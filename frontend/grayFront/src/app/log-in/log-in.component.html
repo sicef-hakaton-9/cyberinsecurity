@@ -7,14 +7,16 @@
       placeholder="Username"
       name="username"
       type="text"
+      [(ngModel)]="user.username"
     />
     <input
       class="input-light"
       placeholder="Password"
       name="password"
       type="password"
+      [(ngModel)]="user.password"
     />
-    <button class="btn-dark self-center hover:bg-transparent duration-700">
+    <button class="btn-dark self-center hover:bg-transparent duration-700" (click)="onSubmit()">
       Login
     </button>
     <p class="text-red-800 text-sm transition-opacity">sta god</p>
