@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { RouterModule } from '@angular/router';
+import { MapComponent } from './map/map.component';
+import { CommentComponent } from './comment/comment.component';
+import { HomeComponent } from './home/home.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
