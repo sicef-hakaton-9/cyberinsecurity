@@ -17,22 +17,28 @@ import { MapComponent } from './map/map.component';
 import { CommentComponent } from './comment/comment.component';
 import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { MapModule } from './map/map.module';
+import { HomeModule } from './home/home.module';
+import { CommentModule } from './comment/comment.module';
+import { NavBarModule } from './nav-bar/nav-bar.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SignUpComponent,
-    LogInComponent,
-    NavBarComponent,
-    CommentComponent,
-    HomeComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     SignUpModule,
+    MapModule,
+    HomeModule,
+    NavBarModule,
+    CommentModule,
     LogInModule,
+    StoreModule.forRoot({userReducer}, {}),
+    EffectsModule.forRoot([]),
     RouterModule.forRoot([
       { path: 'sign-up', component: SignUpComponent },
       { path: 'log-in', component: LogInComponent },
