@@ -4,14 +4,14 @@
 
 Aplikacija nastala na devetom [SICEF Hakatonu](https://hakaton.sicef.info/), 24-časovnom takmičenju u programiranju održanom od 3. do 5. novembra 2023. godine na Elektronskom fakultetu u Nišu.
 
-<!-- Učesnici su imali zadatak da naprave **aplikaciju koja će ...** [organizator će naknadno dodati ovu liniju dokumenta nakon određenja teme] -->
+Učesnici su imali zadatak da naprave **aplikaciju na temu „softverska podrška pametnim gradovima”**.
 
 ## Članovi tima
 
 - [Pavle Antonijević](https://github.com/ElvapAnt)
-- Mihajlo Bencun
+- [Mihajlo Bencun](https://github.com/mis401)
 - [Kristina Joksimović](https://github.com/kristinajoks)
-- Sara Prušević
+- [Sara Prušević](https://github.com/sara-prus)
 
 ## Opis aplikacije
 
