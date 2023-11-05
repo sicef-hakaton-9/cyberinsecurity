@@ -1,0 +1,622 @@
+[
+  {
+    "Camera": "TH2",
+    "Zone": "North Finchley / Tally Ho High Road N12",
+    "Location": "309 Ballards Lane"
+  },
+  {
+    "Camera": "TH3",
+    "Zone": "North Finchley / Tally Ho High Road N12",
+    "Location": "690 High Road"
+  },
+  {
+    "Camera": "TH4",
+    "Zone": "North Finchley / Tally Ho High Road N12",
+    "Location": "Ballards Lane adjacent to Arts Depot opposite Nether Street"
+  },
+  {
+    "Camera": "TH5",
+    "Zone": "North Finchley / Tally Ho High Road N12",
+    "Location": "High Road Tally Ho Corner, opposite Stanhope Road"
+  },
+  {
+    "Camera": "TH7",
+    "Zone": "North Finchley / Tally Ho High Road N12",
+    "Location": "768 High Road The Bohemia PH."
+  },
+  {
+    "Camera": "TH9",
+    "Zone": "North Finchley / Tally Ho High Road N12",
+    "Location": "810 High Road junction with Torrington Park"
+  },
+  {
+    "Camera": "TH11",
+    "Zone": "North Finchley / Tally Ho High Road N12",
+    "Location": "836 High Road outside Sainsburys"
+  },
+  {
+    "Camera": "TH12",
+    "Zone": "North Finchley / Tally Ho High Road N12",
+    "Location": "Woodhouse Road opposite Lambert Way"
+  },
+  {
+    "Camera": "TH152",
+    "Zone": "North Finchley / Tally Ho High Road N12",
+    "Location": "High Road junction with Christchurch Avenue"
+  },
+  {
+    "Camera": "TH153",
+    "Zone": "North Finchley / Tally Ho High Road N12",
+    "Location": "High Road opposite Leisure Way"
+  },
+  {
+    "Camera": "TH154",
+    "Zone": "North Finchley / Tally Ho High Road N12",
+    "Location": "High Road opposite Leisure Way"
+  },
+  {
+    "Camera": "TH155",
+    "Zone": "North Finchley / Tally Ho High Road N12",
+    "Location": "Woodhouse Road junction with Friern Barnet Lane, "
+  },
+  {
+    "Camera": "E13",
+    "Zone": "Edgware, Station Road HA8",
+    "Location": "High Street, junction with Whitchuch Lane"
+  },
+  {
+    "Camera": "E14",
+    "Zone": "Edgware, Station Road HA8",
+    "Location": "Station Road junction with Manns Road"
+  },
+  {
+    "Camera": "E15",
+    "Zone": "Edgware, Station Road HA8",
+    "Location": "Station Road junction with Manor Park Crescent"
+  },
+  {
+    "Camera": "E16",
+    "Zone": "Edgware, Station Road HA8",
+    "Location": "117 Station Road, opposite Edgware LT Station"
+  },
+  {
+    "Camera": "E17",
+    "Zone": "Edgware, Station Road HA8",
+    "Location": "Bakery Path"
+  },
+  {
+    "Camera": "E18",
+    "Zone": "Edgware, Station Road HA8",
+    "Location": "315 Hale Lane junction with Station Road / Edgwarebury Lane / Penshurst Gardens"
+  },
+  {
+    "Camera": "E19",
+    "Zone": "Edgware, Station Road HA8",
+    "Location": "Church Way, adjacent to Edgware School/Broadwalk Car Park"
+  },
+  {
+    "Camera": "E139",
+    "Zone": "Edgware, Station Road HA8",
+    "Location": "40 Glengall Road junction with Marlborough Avenue"
+  },
+  {
+    "Camera": "GG20",
+    "Zone": "Golders Green, Golders Green Road/Finchley Road NW11",
+    "Location": "Finchley Road"
+  },
+  {
+    "Camera": "GG21",
+    "Zone": "Golders Green, Golders Green Road/Finchley Road NW11",
+    "Location": "34 Golders Green Road"
+  },
+  {
+    "Camera": "GG22",
+    "Zone": "Golders Green, Golders Green Road/Finchley Road NW11",
+    "Location": "109 Golders Green Road, junction with Armitage Road"
+  },
+  {
+    "Camera": "GG23",
+    "Zone": "Golders Green, Golders Green Road/Finchley Road NW11",
+    "Location": "Outside Golders Green library"
+  },
+  {
+    "Camera": "GG24",
+    "Zone": "Golders Green, Golders Green Road/Finchley Road NW11",
+    "Location": "Opposite 592 Finchley Road junction with Helenslea Avenue"
+  },
+  {
+    "Camera": "GG28",
+    "Zone": "Golders Green, Golders Green Road/Finchley Road NW11",
+    "Location": "Hodford Road roundabout with Rodborough Road, The Ridgeway, The Vale"
+  },
+  {
+    "Camera": "GG150",
+    "Zone": "Golders Green, Golders Green Road/Finchley Road NW11",
+    "Location": "Golders Green Road junction with Ambrose Avenue"
+  },
+  {
+    "Camera": "GG151",
+    "Zone": "Golders Green, Golders Green Road/Finchley Road NW11",
+    "Location": "Golders Green Road junction with Alba Gardens"
+  },
+  {
+    "Camera": "GP25",
+    "Zone": "Grahame Park Estate, The Concourse/Quakers Course NW9",
+    "Location": "The Concourse South, adjacent to Hudson, The Community, Medical and Childrens Centre"
+  },
+  {
+    "Camera": "GP26",
+    "Zone": "Grahame Park Estate, The Concourse/Quakers Course NW9",
+    "Location": "The Concourse North, adjacent to Moineau."
+  },
+  {
+    "Camera": "GP27",
+    "Zone": "Grahame Park Estate, The Concourse/Quakers Course NW9",
+    "Location": "Quakers Course opposite the bus stop."
+  },
+  {
+    "Camera": "CM38",
+    "Zone": "Claremont Industrial Estate, Cricklewood, NW2",
+    "Location": "Adjacent to Unit 4"
+  },
+  {
+    "Camera": "TFL35",
+    "Zone": "A5 � Burnt Oak, Colindale & West Hendon, HA8 � NW9 ",
+    "Location": "140 Burnt Oak Broadway junction with Barnfield Road HA8"
+  },
+  {
+    "Camera": "TFL49",
+    "Zone": "A5 � Burnt Oak, Colindale & West Hendon, HA8 � NW9 ",
+    "Location": "163 West Hendon Broadway (opp 204) junction with Milton Road, NW9"
+  },
+  {
+    "Camera": "TFL50",
+    "Zone": "A5 � Burnt Oak, Colindale & West Hendon, HA8 � NW9 ",
+    "Location": "236 West Hendon Broadway (opp 191) junction with Station Road, NW9"
+  },
+  {
+    "Camera": "TFL51",
+    "Zone": "A5 � Burnt Oak, Colindale & West Hendon, HA8 � NW9 ",
+    "Location": "A5 The Hyde near to Hyde Estate Road, NW9"
+  },
+  {
+    "Camera": "TFL52",
+    "Zone": "A5 � Burnt Oak, Colindale & West Hendon, HA8 � NW9 ",
+    "Location": "West Hendon Broadway junction with Garrick Road, opp BP Garage, NW9"
+  },
+  {
+    "Camera": "TFL53",
+    "Zone": "A5 � Burnt Oak, Colindale & West Hendon, HA8 � NW9 ",
+    "Location": "The Hyde junction with Rushgrove Avenue, NW9"
+  },
+  {
+    "Camera": "TFL54",
+    "Zone": "A5 � Burnt Oak, Colindale & West Hendon, HA8 � NW9 ",
+    "Location": "Cricklewood Broadway, junction with Depot Approach, NW2"
+  },
+  {
+    "Camera": "TFL55",
+    "Zone": "A5 � Burnt Oak, Colindale & West Hendon, HA8 � NW9 ",
+    "Location": "Edgware Road, opp Grove Park, NW9"
+  },
+  {
+    "Camera": "H32",
+    "Zone": "Hendon, Watford Way, Church Road, Brent Street, NW4",
+    "Location": "Watford Way junction with Station Road,"
+  },
+  {
+    "Camera": "H82",
+    "Zone": "Hendon, Watford Way, Church Road, Brent Street, NW4",
+    "Location": "Watford Way outside Hendon LT station"
+  },
+  {
+    "Camera": "H108",
+    "Zone": "Hendon, Watford Way, Church Road, Brent Street, NW4",
+    "Location": "Church Road, adjacent to Middlesex University"
+  },
+  {
+    "Camera": "H109",
+    "Zone": "Hendon, Watford Way, Church Road, Brent Street, NW4",
+    "Location": "Church Road junction with Sunny Gardens Road"
+  },
+  {
+    "Camera": "H110",
+    "Zone": "Hendon, Watford Way, Church Road, Brent Street, NW4",
+    "Location": "Brent Street junction with Parsons Street / Finchley Lane"
+  },
+  {
+    "Camera": "H111",
+    "Zone": "Hendon, Watford Way, Church Road, Brent Street, NW4",
+    "Location": "154 Brent Street opposite Brampton Grove"
+  },
+  {
+    "Camera": "H112",
+    "Zone": "Hendon, Watford Way, Church Road, Brent Street, NW4",
+    "Location": "69 Brent Street opposite Bell Lane"
+  },
+  {
+    "Camera": "H148",
+    "Zone": "Hendon, Watford Way, Church Road, Brent Street, NW4",
+    "Location": "Station Road adjacent to Midland Hotel"
+  },
+  {
+    "Camera": "         H149",
+    "Zone": "Hendon, Watford Way, Church Road, Brent Street, NW4",
+    "Location": "The Boroughs junction with Egerton Gardens"
+  },
+  {
+    "Camera": "         H156",
+    "Zone": "Hendon, Watford Way, Church Road, Brent Street, NW4",
+    "Location": "Montague Road"
+  },
+  {
+    "Camera": "C76",
+    "Zone": "Cricklewood, Cricklewood Lane / Broadway, NW2",
+    "Location": "Cricklewood Broadway junction with Yew Grove"
+  },
+  {
+    "Camera": "C77",
+    "Zone": "Cricklewood, Cricklewood Lane / Broadway, NW2",
+    "Location": "1 Cricklewood Lane"
+  },
+  {
+    "Camera": "C79",
+    "Zone": "Cricklewood, Cricklewood Lane / Broadway, NW2",
+    "Location": "Cricklewood Lane junction with Lichfield Road"
+  },
+  {
+    "Camera": "EB42",
+    "Zone": "East Barnet, East Barnet Road, Cat Hill, Church Hill Road, EN4. Hampden Square, N14",
+    "Location": "254 East Barnet Road junction with Middle Road"
+  },
+  {
+    "Camera": "EB43",
+    "Zone": "East Barnet, East Barnet Road, Cat Hill, Church Hill Road, EN4. Hampden Square, N14",
+    "Location": "265 East Barnet Road junction with Church Hill Road"
+  },
+  {
+    "Camera": "EB44",
+    "Zone": "East Barnet, East Barnet Road, Cat Hill, Church Hill Road, EN4. Hampden Square, N14",
+    "Location": "Opposite 1 Cat Hill junction with Brookside"
+  },
+  {
+    "Camera": "EB45",
+    "Zone": "East Barnet, East Barnet Road, Cat Hill, Church Hill Road, EN4. Hampden Square, N14",
+    "Location": "Church Hill Road car park footpath"
+  },
+  {
+    "Camera": "EB46",
+    "Zone": "East Barnet, East Barnet Road, Cat Hill, Church Hill Road, EN4. Hampden Square, N14",
+    "Location": "Church Hill Road car park lower level"
+  },
+  {
+    "Camera": "HS40",
+    "Zone": "East Barnet, East Barnet Road, Cat Hill, Church Hill Road, EN4. Hampden Square, N14",
+    "Location": "Hampden Square, N14"
+  },
+  {
+    "Camera": "HB57",
+    "Zone": "High Barnet, Great North Road, High Street, EN5",
+    "Location": "Great North Road junction with Station Road"
+  },
+  {
+    "Camera": "HB58",
+    "Zone": "High Barnet, Great North Road, High Street, EN5",
+    "Location": "Barnet Hill, junction with Underhill"
+  },
+  {
+    "Camera": "HB59",
+    "Zone": "High Barnet, Great North Road, High Street, EN5",
+    "Location": "9 High Street opposite Meadway"
+  },
+  {
+    "Camera": "HB62",
+    "Zone": "High Barnet, Great North Road, High Street, EN5",
+    "Location": "High Street opposite Fitzjohn Avenue"
+  },
+  {
+    "Camera": "HB63",
+    "Zone": "High Barnet, Great North Road, High Street, EN5",
+    "Location": "45 High Street junction of Wood Street"
+  },
+  {
+    "Camera": "HB64",
+    "Zone": "High Barnet, Great North Road, High Street, EN5",
+    "Location": "59 High Street junction with Church Passage"
+  },
+  {
+    "Camera": "HB66",
+    "Zone": "High Barnet, Great North Road, High Street, EN5",
+    "Location": "128 High Street opposite Salisbury Road"
+  },
+  {
+    "Camera": "HB67",
+    "Zone": "High Barnet, Great North Road, High Street, EN5",
+    "Location": "139 High  Street junction with St Albans Road"
+  },
+  {
+    "Camera": "BO68",
+    "Zone": "Burnt Oak, Broadway, Watling Avenue, Orange Hill Road, Deansbrook Road HA8",
+    "Location": "Market Lane junction with Barnfield Road"
+  },
+  {
+    "Camera": "BO69",
+    "Zone": "Burnt Oak, Broadway, Watling Avenue, Orange Hill Road, Deansbrook Road HA8",
+    "Location": "Burnt Oak Broadway outside Tescos"
+  },
+  {
+    "Camera": "BO70",
+    "Zone": "Burnt Oak, Broadway, Watling Avenue, Orange Hill Road, Deansbrook Road HA8",
+    "Location": "18 Watling Avenue junction with Market Lane"
+  },
+  {
+    "Camera": "BO71",
+    "Zone": "Burnt Oak, Broadway, Watling Avenue, Orange Hill Road, Deansbrook Road HA8",
+    "Location": "Watling Avenue junction with Barnfield Road"
+  },
+  {
+    "Camera": "BO73",
+    "Zone": "Burnt Oak, Broadway, Watling Avenue, Orange Hill Road, Deansbrook Road HA8",
+    "Location": "93 Watling Avenue outside Burnt Oak LT station"
+  },
+  {
+    "Camera": "BO74",
+    "Zone": "Burnt Oak, Broadway, Watling Avenue, Orange Hill Road, Deansbrook Road HA8",
+    "Location": "Watling Avenue junction with Gervase Road"
+  },
+  {
+    "Camera": "BO75",
+    "Zone": "Burnt Oak, Broadway, Watling Avenue, Orange Hill Road, Deansbrook Road HA8",
+    "Location": "Hilltop of Watling Park"
+  },
+  {
+    "Camera": "BO127",
+    "Zone": "Burnt Oak, Broadway, Watling Avenue, Orange Hill Road, Deansbrook Road HA8",
+    "Location": "Montrose Park adjacent to pavillion"
+  },
+  {
+    "Camera": "BO128",
+    "Zone": "Burnt Oak, Broadway, Watling Avenue, Orange Hill Road, Deansbrook Road HA8",
+    "Location": "Montrose Avenue junction with the Greenway"
+  },
+  {
+    "Camera": "BO130",
+    "Zone": "Burnt Oak, Broadway, Watling Avenue, Orange Hill Road, Deansbrook Road HA8",
+    "Location": "26 Orange Hill Road junction with Littlefield Road"
+  },
+  {
+    "Camera": "BO131",
+    "Zone": "Burnt Oak, Broadway, Watling Avenue, Orange Hill Road, Deansbrook Road HA8",
+    "Location": "Orange Hill opposite Abbotts Road"
+  },
+  {
+    "Camera": "BO132",
+    "Zone": "Burnt Oak, Broadway, Watling Avenue, Orange Hill Road, Deansbrook Road HA8",
+    "Location": "223 Deansbrook Road"
+  },
+  {
+    "Camera": "FP80",
+    "Zone": "Friary Park, North Finchley, N11",
+    "Location": "Friary House adjacent to the bowling green"
+  },
+  {
+    "Camera": "FP81",
+    "Zone": "Friary Park, North Finchley, N11",
+    "Location": "Friary House adjacent to the playground"
+  },
+  {
+    "Camera": "Camera",
+    "Zone": "Friary Park, North Finchley, N11",
+    "Location": "Apex Corner, Northway Circus, NW7"
+  },
+  {
+    "Camera": "AX87",
+    "Zone": "Friary Park, North Finchley, N11",
+    "Location": "Watford Way northbound carriageway"
+  },
+  {
+    "Camera": "AX88",
+    "Zone": "Friary Park, North Finchley, N11",
+    "Location": "Northway Circus"
+  },
+  {
+    "Camera": "AX89",
+    "Zone": "Friary Park, North Finchley, N11",
+    "Location": "Watford Way/A1 Southbound"
+  },
+  {
+    "Camera": "AX90",
+    "Zone": "Friary Park, North Finchley, N11",
+    "Location": "Watford Way Southbound adjacent to KFC."
+  },
+  {
+    "Camera": "MH91",
+    "Zone": "Mill Hill, The Broadway NW7",
+    "Location": "86 The Broadway junction with Flower Lane"
+  },
+  {
+    "Camera": "MH92",
+    "Zone": "Mill Hill, The Broadway NW7",
+    "Location": "The Broadway junction with Brockenhurst Gardens"
+  },
+  {
+    "Camera": "MH93",
+    "Zone": "Mill Hill, The Broadway NW7",
+    "Location": "75-77 The Broadway"
+  },
+  {
+    "Camera": "MH94",
+    "Zone": "Mill Hill, The Broadway NW7",
+    "Location": "The Broadway opposite Station Road"
+  },
+  {
+    "Camera": "NB96",
+    "Zone": "New Barnet, East Barnet Road, EN4",
+    "Location": "155 East Barnet Road junction with Brookhill Road"
+  },
+  {
+    "Camera": "NB97",
+    "Zone": "New Barnet, East Barnet Road, EN4",
+    "Location": "139 East Barnet Road junction with Victoria Road"
+  },
+  {
+    "Camera": "NB98",
+    "Zone": "New Barnet, East Barnet Road, EN4",
+    "Location": "79-81 East Barnet Road junction with Margaret Road"
+  },
+  {
+    "Camera": "NB99",
+    "Zone": "New Barnet, East Barnet Road, EN4",
+    "Location": "45 East Barnet Road opposite Sainsburys"
+  },
+  {
+    "Camera": "NB100",
+    "Zone": "New Barnet, East Barnet Road, EN4",
+    "Location": "East Barnet Road junction with Victoria Road"
+  },
+  {
+    "Camera": "FC101",
+    "Zone": "Finchley Central, Ballards Lane / Regents Park Road, N3",
+    "Location": "165 Ballards Lane junction with Wentworth Park"
+  },
+  {
+    "Camera": "FC102",
+    "Zone": "Finchley Central, Ballards Lane / Regents Park Road, N3",
+    "Location": "122 Ballards Lane junction with Long Lane"
+  },
+  {
+    "Camera": "FC103",
+    "Zone": "Finchley Central, Ballards Lane / Regents Park Road, N3",
+    "Location": "87 Ballards Lane junction with Falkland Avenue"
+  },
+  {
+    "Camera": "FC104",
+    "Zone": "Finchley Central, Ballards Lane / Regents Park Road, N3",
+    "Location": "46 Ballards Lane adjacent to junction of Redbourne Avenue"
+  },
+  {
+    "Camera": "FC106",
+    "Zone": "Finchley Central, Ballards Lane / Regents Park Road, N3",
+    "Location": "Ballards Lane junction with Chaville Way opposite Nether Street"
+  },
+  {
+    "Camera": "FC107",
+    "Zone": "Finchley Central, Ballards Lane / Regents Park Road, N3",
+    "Location": "Regents Park Road junction with Hendon Lane"
+  },
+  {
+    "Camera": "EF114",
+    "Zone": "East Finchley, High Road, East End Road, N2",
+    "Location": "High Road junction with Park Road opposite Creighton Avenue"
+  },
+  {
+    "Camera": "EF115",
+    "Zone": "East Finchley, High Road, East End Road, N2",
+    "Location": "High Road near junction of Norfolk Close"
+  },
+  {
+    "Camera": "EF116",
+    "Zone": "East Finchley, High Road, East End Road, N2",
+    "Location": "127 High Road junction with Kitchener Road"
+  },
+  {
+    "Camera": "EF117",
+    "Zone": "East Finchley, High Road, East End Road, N2",
+    "Location": "87 High Road junction with Beresford Avenue"
+  },
+  {
+    "Camera": "EF118",
+    "Zone": "East Finchley, High Road, East End Road, N2",
+    "Location": "84 High Road junction with Fortis Green"
+  },
+  {
+    "Camera": "EF119",
+    "Zone": "East Finchley, High Road, East End Road, N2",
+    "Location": "High Road junction with Diploma Avenue"
+  },
+  {
+    "Camera": "EF120",
+    "Zone": "East Finchley, High Road, East End Road, N2",
+    "Location": "High Road opposite East Finchley LT station"
+  },
+  {
+    "Camera": "EF121",
+    "Zone": "East Finchley, High Road, East End Road, N2",
+    "Location": "East End Road junction with Ossulton Way"
+  },
+  {
+    "Camera": "W122",
+    "Zone": "Whetstone, High Road / Totteridge Lane, N20",
+    "Location": "High Road junction with Oakleigh Road North"
+  },
+  {
+    "Camera": "W123",
+    "Zone": "Whetstone, High Road / Totteridge Lane, N20",
+    "Location": "Totteridge Lane opposite Totteridge LT station"
+  },
+  {
+    "Camera": "W124",
+    "Zone": "Whetstone, High Road / Totteridge Lane, N20",
+    "Location": "1323 High Road"
+  },
+  {
+    "Camera": "W125",
+    "Zone": "Whetstone, High Road / Totteridge Lane, N20",
+    "Location": "1370 High Road junction with Chandos Avenue"
+  },
+  {
+    "Camera": "MB135",
+    "Zone": "A406 Subway NW4",
+    "Location": "Subway North Upper Level"
+  },
+  {
+    "Camera": "MB136",
+    "Zone": "A406 Subway NW4",
+    "Location": "Subway South Upper Level"
+  },
+  {
+    "Camera": "CD137",
+    "Zone": "Colindale, Varley Parade, NW9",
+    "Location": "Varley Parade"
+  },
+  {
+    "Camera": "CD138",
+    "Zone": "Colindale, Varley Parade, NW9",
+    "Location": "4 Colin Close junction with The Hyde / Sheaveshill Avenue"
+  },
+  {
+    "Camera": "CD146",
+    "Zone": "Colindale, Varley Parade, NW9",
+    "Location": "Colindale Avenue roundabout adjacent to Aerodrome Road"
+  },
+  {
+    "Camera": "TF140",
+    "Zone": "Temple Fortune, Finchley Road NW11",
+    "Location": "Finchley Road junction with Addison Way"
+  },
+  {
+    "Camera": "TF141",
+    "Zone": "Temple Fortune, Finchley Road NW11",
+    "Location": "858 Finchley Road opposite Alberon Gardens"
+  },
+  {
+    "Camera": "TF142",
+    "Zone": "Temple Fortune, Finchley Road NW11",
+    "Location": "Finchley Road opposite Hallswelle Road"
+  },
+  {
+    "Camera": "TF143",
+    "Zone": "Temple Fortune, Finchley Road NW11",
+    "Location": "Finchley Road opposite Temple Fortune Mansions"
+  },
+  {
+    "Camera": "TF144",
+    "Zone": "Temple Fortune, Finchley Road NW11",
+    "Location": "Finchley Road junction with Bridge Lane"
+  },
+  {
+    "Camera": "TF145",
+    "Zone": "Temple Fortune, Finchley Road NW11",
+    "Location": "Finchley Road junction with Clifton Gardens"
+  }
+]
