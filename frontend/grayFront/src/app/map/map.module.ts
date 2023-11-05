@@ -4,6 +4,7 @@ import { MapComponent } from './map.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 import { NavBarModule } from '../nav-bar/nav-bar.module';
+import { MapService } from './map.service';
 
 
 
@@ -14,6 +15,7 @@ import { NavBarModule } from '../nav-bar/nav-bar.module';
     LeafletModule,
     NavBarModule
   ],
+  providers: [MapService]
 })
 export class MapModule { 
   
