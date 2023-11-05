@@ -9,22 +9,17 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./map.component.css']
 })
 export class MapComponent implements AfterViewInit,OnDestroy  {
-    constructor(private http: HttpClient) { }
-private map!: L.Map; // Declare map property correctly
-    userCoords: L.LatLng = L.latLng(0, 0);
-     base_url = `https://graphhopper.com/api/1/route?key=b95ec9be-3221-42e9-842a-5bf8c3cf991f`;
-     alternative_route = {
-        max_paths: 3,
-     }
-     query = {
-        points: [[0.1276, 51.5072 ], [0.12, 51.50]],
-        profile: 'foot',
-        algorithm: 'alternative_route',
-        alternative_route: this.alternative_route,
-        points_encoded: false,
-        instructions: false,
-        elevation: false,
-     }
+  constructor(private http: HttpClient) { }
+  private map!: L.Map; 
+  userCoords: L.LatLng = L.latLng(0, 0);
+  base_url = `https://graphhopper.com/api/1/route?key=b95ec9be-3221-42e9-842a-5bf8c3cf991f`;
+
+  alternative_route = {
+      max_paths: 3,
+  }
+  
+  
+
   options = {
     layers: [
       tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 50, attribution: '...' })
@@ -38,8 +33,8 @@ private map!: L.Map; // Declare map property correctly
     console.log(this.map);
     this.map = map;
   }
+
   async ngAfterViewInit() {
-    // Initialize the map property, checking it is not undefined
     
     // if(!this.map){
     //     console.log(this.map);
@@ -49,36 +44,69 @@ private map!: L.Map; // Declare map property correctly
     // // });
     // this.map = L.map('leaflet-map');
     // }
+
     console.log(this.map);
-    if (this.map) { // Check that this.map is not undefined
-      // Add the tile layer to the map
+    if (this.map) { 
       console.log('map');
       this.options.layers.forEach(layer => {
         if (layer) layer.addTo(this.map!);
       });
+
+
       //this.map.locate({setView: true, maxZoom: 50 });
       //this.userCoords=this.map.getCenter();
       //await this.contactApi();
     }
-    }
+  }
+
+  startPoint: L.LatLng | null = null;
+  endPoint: L.LatLng | null = null;
   
+  async onMapClick(e: MouseEvent) {
+    
+    if(!this.startPoint){
+      this.startPoint = this.map.mouseEventToLatLng(e);
+      const startMarker = L.marker(this.startPoint);
+      if(startMarker)  startMarker.addTo(this.map);
+    }
+    else if(!this.endPoint){
+      this.endPoint = this.map.mouseEventToLatLng(e);
+      const endMarker = L.marker(this.endPoint);
+      if (endMarker) {
+        endMarker.addTo(this.map);
+        await this.contactApi();
+      }
+      
+    }
+    
 
+  }
 
-async contactApi() {
+  async contactApi() {
     let result;
     console.log('api');
-    this.http.post(this.base_url, this.query).subscribe((res) => {
-        result = res;
-        (result as any).paths.forEach((path: any) => {
-            const polyline = L.polyline(path.points.coordinates.map((coord: any) => [coord[1], coord[0]]), { color: 'blue' }).addTo(this.map);
-            this.map.fitBounds(polyline.getBounds());
-        }
-        );
+    const query = {
+      points: [[this.startPoint?.lng, this.startPoint?.lat ], [this.endPoint?.lng, this.endPoint?.lat]],
+      profile: 'foot',
+      algorithm: 'alternative_route',
+      alternative_route: this.alternative_route,
+      points_encoded: false,
+      instructions: false,
+      elevation: false,
+    }
+    this.http.post(this.base_url, query).subscribe((res) => {
+      result = res;
+      (result as any).paths.forEach((path: any) => {
+          const polyline = L.polyline(path.points.coordinates.map((coord: any) => [coord[1], coord[0]]), { color: 'blue' }).addTo(this.map);
+          this.map.fitBounds(polyline.getBounds());
+      }
+      );
     });
     console.log(result);
-}
+  }
 
-ngOnDestroy(): void {
+  ngOnDestroy(): void {
     this.map.stopLocate();
-}
+  }
+
 }
