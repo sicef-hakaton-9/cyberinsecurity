@@ -6,9 +6,14 @@
 <app-nav-bar></app-nav-bar>
 <div
   id="map"
-  style="height: 100%"
+  style="height: 90%"
   leaflet
   [leafletOptions]="options"
   (leafletMapReady)="onMapReady($event)"
   (click)="onMapClick($event)"
-></div>
+>
+<div >
+  <button [disabled]="!startPoint || !endPoint" id="findRouteButton" (click)="findRoute()"> Find route </button>
+</div>
+
+</div>

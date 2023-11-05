@@ -74,12 +74,17 @@ export class MapComponent implements AfterViewInit,OnDestroy  {
       const endMarker = L.marker(this.endPoint);
       if (endMarker) {
         endMarker.addTo(this.map);
-        await this.contactApi();
+        // await this.contactApi();
       }
       
     }
-    
 
+  }
+  
+  async findRoute(){
+    if(this.startPoint && this.endPoint){
+      await this.contactApi();
+    }
   }
 
   async contactApi() {
@@ -96,9 +101,11 @@ export class MapComponent implements AfterViewInit,OnDestroy  {
     }
     this.http.post(this.base_url, query).subscribe((res) => {
       result = res;
+      let i = 0;
       (result as any).paths.forEach((path: any) => {
-          const polyline = L.polyline(path.points.coordinates.map((coord: any) => [coord[1], coord[0]]), { color: 'blue' }).addTo(this.map);
+          const polyline = L.polyline(path.points.coordinates.map((coord: any) => [coord[1], coord[0]]), { color: colors[i] }).addTo(this.map);
           this.map.fitBounds(polyline.getBounds());
+          i++;
       }
       );
     });
@@ -110,3 +117,4 @@ export class MapComponent implements AfterViewInit,OnDestroy  {
   }
 
 }
+const colors = ['red', 'green', 'blue'];
