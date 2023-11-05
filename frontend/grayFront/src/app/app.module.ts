@@ -13,14 +13,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { userReducer } from './store/user/user.reducer';
 import { SignUpModule } from './sign-up/sign-up.module';
 import { LogInModule } from './log-in/log-in.module';
-import { MapComponent } from './map/map.component';
+// import { MapComponent } from './map/map.component';
 import { CommentComponent } from './comment/comment.component';
 import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { MapModule } from './map/map.module';
+// import { MapModule } from './map/map.module';
 import { HomeModule } from './home/home.module';
 import { CommentModule } from './comment/comment.module';
 import { NavBarModule } from './nav-bar/nav-bar.module';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,6 @@ import { NavBarModule } from './nav-bar/nav-bar.module';
     AppRoutingModule,
     HttpClientModule,
     SignUpModule,
-    MapModule,
     HomeModule,
     NavBarModule,
     CommentModule,
@@ -43,7 +43,6 @@ import { NavBarModule } from './nav-bar/nav-bar.module';
     RouterModule.forRoot([
       { path: 'sign-up', component: SignUpComponent },
       { path: 'log-in', component: LogInComponent },
-      { path: 'map', component: MapComponent},
       { path: '', redirectTo: '/log-in', pathMatch: 'full'},
       { path:'nav-bar', component: NavBarComponent},
       { path:'comment', component: CommentComponent},
