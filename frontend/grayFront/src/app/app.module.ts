@@ -21,7 +21,9 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeModule } from './home/home.module';
 import { CommentModule } from './comment/comment.module';
 import { NavBarModule } from './nav-bar/nav-bar.module';
-import { GoogleMapsModule } from '@angular/google-maps';
+import { LeafletModule } from '@asymmetrik/ngx-leaflet';
+import { MapComponent } from './map/map.component';
+import { MapModule } from './map/map.module';
 
 @NgModule({
   declarations: [
@@ -37,13 +39,20 @@ import { GoogleMapsModule } from '@angular/google-maps';
     NavBarModule,
     CommentModule,
     LogInModule,
+    MapModule,
+    LeafletModule,
     StoreModule.forRoot(userReducer, {}),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: isDevMode() }),
     EffectsModule.forRoot([]),
     RouterModule.forRoot([
       { path: 'sign-up', component: SignUpComponent },
       { path: 'log-in', component: LogInComponent },
+<<<<<<< HEAD
       { path: '', redirectTo: '/home', pathMatch: 'full'},
+=======
+      { path: '', redirectTo: '/log-in', pathMatch: 'full'},
+      { path: 'map', component: MapComponent},
+>>>>>>> 66cff40a35bd8a02bbfe8b9abda92c12369bcbe5
       { path:'nav-bar', component: NavBarComponent},
       { path:'comment', component: CommentComponent},
       { path:'home', component: HomeComponent},
