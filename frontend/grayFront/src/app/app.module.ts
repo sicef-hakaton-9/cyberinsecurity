@@ -43,10 +43,10 @@ import { GoogleMapsModule } from '@angular/google-maps';
     RouterModule.forRoot([
       { path: 'sign-up', component: SignUpComponent },
       { path: 'log-in', component: LogInComponent },
-      { path: '', redirectTo: '/log-in', pathMatch: 'full'},
+      { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path:'nav-bar', component: NavBarComponent},
       { path:'comment', component: CommentComponent},
-      { path:'home', component: HomeComponent}
+      { path:'home', component: HomeComponent},
     ])
   ],
   providers: [],
