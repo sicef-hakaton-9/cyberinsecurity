@@ -2,13 +2,19 @@
     position: absolute;
     top: 30px;
     right: 50px;
-    background-color: #007bff;
+    background-color: #101111;
     color: white;
     padding: 10px;
     border: none;
     cursor: pointer;
     z-index: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.85rem;
   }
+  #findRouteButton:hover {
+    background-color: #646465; /* Change the background color on hover */
+}
+  
 
 /* #map{
     filter: grayscale(100%);

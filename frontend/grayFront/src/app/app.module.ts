@@ -47,7 +47,7 @@ import { MapModule } from './map/map.module';
     RouterModule.forRoot([
       { path: 'sign-up', component: SignUpComponent },
       { path: 'log-in', component: LogInComponent },
-      { path: '', redirectTo: '/log-in', pathMatch: 'full'},
+      { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: 'map', component: MapComponent},
       { path:'nav-bar', component: NavBarComponent},
       { path:'comment', component: CommentComponent},

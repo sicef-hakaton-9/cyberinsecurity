@@ -5,6 +5,7 @@ import { GoogleMapsModule } from '@angular/google-maps';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 import { NavBarModule } from '../nav-bar/nav-bar.module';
 import { MapService } from './map.service';
+import { CommentModule } from '../comment/comment.module';
 
 
 
@@ -13,7 +14,8 @@ import { MapService } from './map.service';
   imports: [
     CommonModule,
     LeafletModule,
-    NavBarModule
+    NavBarModule,
+    CommentModule
   ],
   providers: [MapService]
 })

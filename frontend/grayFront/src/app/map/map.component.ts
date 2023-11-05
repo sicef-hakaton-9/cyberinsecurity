@@ -105,12 +105,29 @@ export class MapComponent implements AfterViewInit,OnDestroy  {
     
     if(!this.startPoint){
       this.startPoint = this.map.mouseEventToLatLng(e.originalEvent);
-      this.startMarker = L.marker(this.startPoint);
+      this.startMarker = L.marker(this.startPoint,
+        {
+        icon: L.icon({
+          iconUrl: '../../assets/location-pin.jpg', 
+          iconSize: [20, 40],
+          iconAnchor: [12, 41],
+          popupAnchor: [1, -34]
+        })
+      })
+
       if(this.startMarker)  this.startMarker.addTo(this.map);
     }
     else if(!this.endPoint){
       this.endPoint = this.map.mouseEventToLatLng(e.originalEvent);
-      this.endMarker = L.marker(this.endPoint);
+      this.endMarker = L.marker(this.endPoint,
+        {
+          icon: L.icon({
+            iconUrl: '../../assets/location-pin.jpg', 
+            iconSize: [20, 40],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34]
+          })
+        });
       if (this.endMarker) {
         this.endMarker.addTo(this.map);
         // await this.contactApi();
@@ -125,9 +142,11 @@ export class MapComponent implements AfterViewInit,OnDestroy  {
       for (const p of this.polyline) {
         p.remove();
       }
-
     }
+  }
 
+  onCommentClick(){
+    
   }
   
   async findRoute(){
