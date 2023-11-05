@@ -9,3 +9,7 @@
     cursor: pointer;
     z-index: 500;
   }
+
+/* #map{
+    filter: grayscale(100%);
+} */

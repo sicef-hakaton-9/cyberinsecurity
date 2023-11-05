@@ -22,7 +22,7 @@ export class MapComponent implements AfterViewInit,OnDestroy  {
 
   options = {
     layers: [
-      tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 50, attribution: '...' })
+      tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 50, attribution: 'CartoDB' })
     ],
     zoom: 15,    
     center: latLng(51.5072, -0.1276)
@@ -75,8 +75,7 @@ export class MapComponent implements AfterViewInit,OnDestroy  {
       if (endMarker) {
         endMarker.addTo(this.map);
         // await this.contactApi();
-      }
-      
+      }      
     }
 
   }
