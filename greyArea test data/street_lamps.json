@@ -1,5 +1,6 @@
 {
-    "4 Parkside, Finchley, London": [
+    "lights": [
+    {"4 Parkside, Finchley, London": [
         {
             "lat": 51.60439,
             "lng": -0.18500000000000003,
@@ -50,8 +51,8 @@
             "lng": -0.18560000000000001,
             "state": "off"
         }
-    ],
-    "37-45 The Ridgeway, Finchley, London": [
+    ]},
+    {"37-45 The Ridgeway, Finchley, London": [
         {
             "lat": 51.604380000000006,
             "lng": -0.18499000000000002,
@@ -107,8 +108,8 @@
             "lng": -0.18671000000000001,
             "state": "on"
         }
-    ],
-    "24 Willow Way, Finchley,London": [
+    ]},
+    {"24 Willow Way, Finchley,London": [
         {
             "lat": 51.60477,
             "lng": -0.18594000000000002,
@@ -164,8 +165,8 @@
             "lng": -0.18685000000000002,
             "state": "on"
         }
-    ],
-    "24-2 St Paul's Way,Finchley,London": [
+    ]},
+    {"24-2 St Paul's Way,Finchley,London": [
         {
             "lat": 51.605230000000006,
             "lng": -0.18676,
@@ -211,8 +212,8 @@
             "lng": -0.18803333333333336,
             "state": "on"
         }
-    ],
-    "42a Long Ln,Finchley,London": [
+    ]},
+    {"42a Long Ln,Finchley,London": [
         {
             "lat": 51.60351000000001,
             "lng": -0.18664000000000003,
@@ -258,8 +259,8 @@
             "lng": -0.18882000000000002,
             "state": "off"
         }
-    ],
-    "116 Ballards Ln, Finchley, London": [
+    ]},
+    {"116 Ballards Ln, Finchley, London": [
         {
             "lat": 51.60441,
             "lng": -0.18917,
@@ -335,8 +336,8 @@
             "lng": -0.18971000000000002,
             "state": "on"
         }
-    ],
-    "94 Ballards Ln,Finchley,London": [
+    ]},
+    {"94 Ballards Ln,Finchley,London": [
         {
             "lat": 51.60401,
             "lng": -0.18978,
@@ -382,8 +383,8 @@
             "lng": -0.19044000000000003,
             "state": "off"
         }
-    ],
-    "17a Falkland Ave, Finchley, London": [
+    ]},
+    {"17a Falkland Ave, Finchley, London": [
         {
             "lat": 51.60445000000001,
             "lng": -0.19069000000000003,
@@ -439,5 +440,6 @@
             "lng": -0.19076,
             "state": "on"
         }
-    ]
+    ]}
+]
 }

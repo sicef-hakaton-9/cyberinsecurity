@@ -1,4 +1,4 @@
-[
+{"cameras": [
     {
         "Camera": "TH2",
         "Zone": "North Finchley / Tally Ho High Road N12",
@@ -1116,3 +1116,4 @@
         }
     }
 ]
+}
