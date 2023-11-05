@@ -22,6 +22,8 @@ import { HomeModule } from './home/home.module';
 import { CommentModule } from './comment/comment.module';
 import { NavBarModule } from './nav-bar/nav-bar.module';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
+import { MapComponent } from './map/map.component';
+import { MapModule } from './map/map.module';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,7 @@ import { LeafletModule } from '@asymmetrik/ngx-leaflet';
     NavBarModule,
     CommentModule,
     LogInModule,
+    MapModule,
     LeafletModule,
     StoreModule.forRoot(userReducer, {}),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: isDevMode() }),
@@ -45,6 +48,7 @@ import { LeafletModule } from '@asymmetrik/ngx-leaflet';
       { path: 'sign-up', component: SignUpComponent },
       { path: 'log-in', component: LogInComponent },
       { path: '', redirectTo: '/log-in', pathMatch: 'full'},
+      { path: 'map', component: MapComponent},
       { path:'nav-bar', component: NavBarComponent},
       { path:'comment', component: CommentComponent},
       { path:'home', component: HomeComponent}
