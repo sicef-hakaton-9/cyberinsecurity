@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MapComponent } from './map.component';
 import { GoogleMapsModule } from '@angular/google-maps';
+import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 
 
 
@@ -9,7 +10,7 @@ import { GoogleMapsModule } from '@angular/google-maps';
   declarations: [MapComponent],
   imports: [
     CommonModule,
-    GoogleMapsModule,
+    LeafletModule,
   ],
 })
 export class MapModule { 

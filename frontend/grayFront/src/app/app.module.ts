@@ -21,6 +21,7 @@ import { MapModule } from './map/map.module';
 import { HomeModule } from './home/home.module';
 import { CommentModule } from './comment/comment.module';
 import { NavBarModule } from './nav-bar/nav-bar.module';
+import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { NavBarModule } from './nav-bar/nav-bar.module';
     NavBarModule,
     CommentModule,
     LogInModule,
+    LeafletModule,
     StoreModule.forRoot(userReducer, {}),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: isDevMode() }),
     EffectsModule.forRoot([]),
