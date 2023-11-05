@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
 import { latLng, tileLayer } from 'leaflet';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 import * as L from 'leaflet';
@@ -8,9 +8,10 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.css']
 })
-export class MapComponent implements AfterViewInit  {
+export class MapComponent implements AfterViewInit,OnDestroy  {
     constructor(private http: HttpClient) { }
 private map!: L.Map; // Declare map property correctly
+    userCoords: L.LatLng = L.latLng(0, 0);
      base_url = `https://graphhopper.com/api/1/route?key=b95ec9be-3221-42e9-842a-5bf8c3cf991f`;
      alternative_route = {
         max_paths: 3,
@@ -26,9 +27,9 @@ private map!: L.Map; // Declare map property correctly
      }
   options = {
     layers: [
-      tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '...' })
+      tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 50, attribution: '...' })
     ],
-    zoom: 5,    
+    zoom: 15,    
     center: latLng(51.5072, -0.1276)
   };  
 
@@ -55,10 +56,10 @@ private map!: L.Map; // Declare map property correctly
       this.options.layers.forEach(layer => {
         if (layer) layer.addTo(this.map!);
       });
-      this.map.locate({setView: true, maxZoom: 16, watch: true});
+      //this.map.locate({setView: true, maxZoom: 50 });
+      //this.userCoords=this.map.getCenter();
       //await this.contactApi();
     }
-    setTimeout(() => console.log(this.map), 5000);
     }
   
 
@@ -75,5 +76,9 @@ async contactApi() {
         );
     });
     console.log(result);
+}
+
+ngOnDestroy(): void {
+    this.map.stopLocate();
 }
 }
