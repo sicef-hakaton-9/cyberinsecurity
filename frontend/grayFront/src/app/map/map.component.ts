@@ -55,7 +55,8 @@ private map!: L.Map; // Declare map property correctly
       this.options.layers.forEach(layer => {
         if (layer) layer.addTo(this.map!);
       });
-      await this.contactApi();
+      this.map.locate({setView: true, maxZoom: 16});
+      //await this.contactApi();
     }
     setTimeout(() => console.log(this.map), 5000);
     }
